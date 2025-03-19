@@ -12,7 +12,7 @@ Basic Usage:
 ```
 $ bash extensionfixer.sh <directory>
 ```
-Recursively scans all files in <directory> and its subdirectories for files with incorrect extensions. Those files are then renamed to their correct extensions. Example: `IMG_5268.bloop -> IMG_5268.png`.
+Recursively scans all files in directory and its subdirectories for files with incorrect extensions. Those files are then renamed to their correct extensions. Example: `IMG_5268.bloop -> IMG_5268.png`.
 
 Supports the file types found in the table at [https://exiftool.org/](https://exiftool.org/).
 
