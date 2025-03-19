@@ -1,5 +1,5 @@
 # extensionfixer
-A bash script using exiftool to fix incorrect file extensions.
+A bash script to fix incorrect file extensions.
 
 ## Install
 ```
