@@ -71,7 +71,6 @@ function rename_file() {
 	[ "$extension" = "wtv" ] || [ "$extension" = "wv" ] || [ "$extension" = "x3f" ] || [ "$extension" = "xcf" ] || 
 	[ "$extension" = "xhtml" ] || [ "$extension" = "xisf" ] || [ "$extension" = "xls" ] || [ "$extension" = "xlsx" ] || 
 	[ "$extension" = "xmp" ] || [ "$extension" = "zip" ]; then
-
 		local file_name=$(exiftool -BaseName -s3 -m $0)
 		local dir_path=$(dirname "$0")
 		if [ "$dir_path/$file_name.$extension" != "$0" ]; then
